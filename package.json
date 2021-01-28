@@ -1,0 +1,27 @@
+{
+  "name": "text-chat",
+  "version": "0.0.1",
+  "description": "realtime socket.io text chat app",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thijsBoet/text-chat.git"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io"
+  ],
+  "author": "matthijs boet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thijsBoet/text-chat/issues"
+  },
+  "homepage": "https://github.com/thijsBoet/text-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
