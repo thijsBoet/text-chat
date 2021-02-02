@@ -1,5 +1,5 @@
 {
-  "name": "text-chat",
+  "name": "chat",
   "version": "0.0.1",
   "description": "realtime socket.io text chat app",
   "main": "src/index.js",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/thijsBoet/text-chat#readme",
   "dependencies": {
+    "bad-words": "^3.0.4",
     "express": "^4.17.1",
     "socket.io": "^3.1.0"
   }
